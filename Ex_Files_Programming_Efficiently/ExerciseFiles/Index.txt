@@ -1,0 +1,45 @@
+03_02
+requests - http handler
+IPython - for jupyter notebook. e.g. IPython.display.Image
+
+03_03
+
+PIL - Python Image Library Pillow
+requests - http handler
+io - wrapper around os.io with additional error handling
+
+03_04
+
+bs4 BeautifulSoup  HTML parsing/extracting
+
+soup.head
+soup.title
+soup.head.name
+soup.head.contents
+soup.title.string 
+soup.title.text
+soup.a.attrs
+soup.a['href']
+soup.head.contents
+soup.head.children
+soup.title.parent
+soup.title.parents
+soup.pre.find_all('a)
+
+03_05
+
+Matplotlib
+PIL - Python Image Library Pillow
+bs4 BeautifulSoup  HTML parsing/extracting
+ffmpeg - has to be installed with 'brew install ffmpeg'
+
+frame=PIL.Image.open('file','r')
+plt.imshow(frame)
+figure = plt.figure(figsize=(512/72, 512/72), dpi=72)
+create mp4 from jpg images
+
+03_06
+
+Flask
+base64
+
